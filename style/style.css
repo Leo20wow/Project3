@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  background-color: gray;
+  color: rgb(209, 160, 0);
+}
+header {
+  background-color: gray;
+}
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header {
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header > div {
+  width: 50%;
+}
+
+.header .log_out {
+  text-align: right;
+}
+
+.header a {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+main .wrapper {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+main .wrapper .profile {
+  width: 20%;
+  border: 2px solid green;
+}
+
+.news {
+  width: 50%;
+}
+.news img {
+  width: 100%;
+}
+.recs {
+  width: 20%;
+  border: 2px solid green;
+}
